@@ -99,7 +99,35 @@ But the ant build failed
     ...
 
 
-Tried to google/serch for how to build with ant having a dependecy on another apk
+
+Tried to google/search for how to build with ant having a dependecy on another apk
 but didn't find it - perhaps is the right solution that *simple-quickactions* should
 be cooked as a jar like they do https://github.com/pellekrogholt/Android-Universal-Image-Loader
+
+
+
+We also tried with an ant.properties file - containing:
+
+::
+
+    extensible.classpath=/Users/pelle/dev/android_crowdnet/crowdnet/SimpleQuickactions/bin
+
+well didn't work as well so for now we are stucked to build the app(s) through Eclipse for now.
+
+
+Ad hoc notes
+------------
+
+Uninstall application:
+
+::
+
+    adb shell am start -a android.intent.action.DELETE -d package:com.matter2media.crowdz.preciouscargo
+
+
+list application and perhaps grep
+
+::
+
+    adb shell pm list packages | grep crowd
 
