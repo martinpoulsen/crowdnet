@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+<!-- 	<classpathentry kind="lib" path="/Users/tim/Desktop/Eclipse/SharedJars/slf4j-android-1.5.8.jar"/>
+	<classpathentry kind="lib" path="/Users/tim/Desktop/Eclipse/SharedJars/osmdroid-android-3.0.5.jar"/>
+	<classpathentry kind="lib" path="/Users/tim/Desktop/Eclipse/SharedJars/google-gson-2.0/gson-2.0.jar"/> -->
+	
+	<classpathentry kind="lib" path="libs/slf4j-android-1.6.1-RC1.jar"/>
+	<classpathentry kind="lib" path="libs/osmdroid-android-3.0.8.jar"/>
+	<classpathentry kind="lib" path="libs/gson-2.2.2.jar"/>
+	
+	<classpathentry combineaccessrules="false" kind="src" path="/SimpleQuickactions"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
-	<classpathentry kind="lib" path="/Users/tim/Desktop/Eclipse/SharedJars/slf4j-android-1.5.8.jar"/>
-	<classpathentry kind="lib" path="/Users/tim/Desktop/Eclipse/SharedJars/osmdroid-android-3.0.5.jar"/>
-	<classpathentry kind="lib" path="/Users/tim/Desktop/Eclipse/SharedJars/google-gson-2.0/gson-2.0.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/QuickActions"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
